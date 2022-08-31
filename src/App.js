@@ -1,9 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Home from "./pages/home";
-import "./scss/styles.js";
+import NavBar from "./components/NavBar";
+import "./scss/index.scss";
 
 function App() {
-  return <Home />;
+  return (
+    <Fragment>
+      <NavBar />
+      <Home />
+    </Fragment>
+  );
 }
 
 export default App;
