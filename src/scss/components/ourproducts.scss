@@ -1,0 +1,16 @@
+.our-products {
+  background-color: $lightblue;
+
+  &__learn-more {
+    color: $darkblue;
+    text-decoration: underline;
+  }
+
+  &__list-item {
+    margin-left: 20px;
+
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+  }
+}

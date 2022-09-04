@@ -1,7 +1,14 @@
 .nav-bar {
-    background-color: $darkblue;
+  background-color: $darkblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    &__logo {
+  &__navs-con div {
+    margin-left: 40px;
 
+    &:nth-child(1) {
+      margin-left: 0;
     }
+  }
 }

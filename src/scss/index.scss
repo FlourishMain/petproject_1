@@ -1,2 +1,22 @@
 @import "./variable";
+@import "./fonts";
 @import "./components/navbar";
+@import "./components/hero";
+@import "./components/ourproducts";
+
+.sm-txt {
+  font-size: 14.4px;
+  line-height: 19.67px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Avenir";
+}
+
+.xl-txt {
+  font-size: 68.66px;
+  line-height: 93.79px;
+  font-weight: 900;
+  font-style: normal;
+  font-family: "Avenir";
+  color: $white;
+}

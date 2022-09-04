@@ -1,0 +1,27 @@
+.hero {
+  &__intro-section {
+    padding: 0px 100px;
+    padding-top: 80px;
+    position: relative;
+    background-image: url("../../assets/images/hero-section-bg.jpg");
+  }
+
+  &__mid-section {
+    background-image: url("../../assets/images/hero-section-img.jpg");
+  }
+
+  &__end-section {
+    background: $darkblue;
+    padding:  100px 133px 73px 500px;
+  }
+
+  &__bg {
+    z-index: -1;
+  }
+
+  &__hero-side-img {
+    position: absolute;
+    bottom: 0;
+    right: 87px;
+  }
+}
