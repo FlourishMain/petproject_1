@@ -1,0 +1,11 @@
+.thought-leadership {
+  background-color: white;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    row-gap: 48px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+  }
+}
