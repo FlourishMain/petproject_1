@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import LetsTalk from "../components/LetsTalk";
 import News from "../components/News";
@@ -15,6 +16,7 @@ export default function Home() {
       <News />
       <ThoughtLeaderShip />
       <LetsTalk />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,34 @@
+.footer {
+  background-color: $purple;
+
+  &__nav-list,
+  &__location-section {
+    border-top: 2px solid $lightpurple;
+    border-right: 2px solid $lightpurple;
+    width: fit-content;
+  }
+
+  &__nav-section {
+    &:nth-child(1) {
+      margin-right: 80px;
+    }
+  }
+
+  &__section-head {
+    color: $gray;
+    text-transform: uppercase;
+  }
+
+  &__nav {
+    margin-top: 16px;
+
+    &:nth-child(1) {
+      margin-top: none;
+    }
+  }
+
+  &__twitter-section {
+    border-top: 2px solid $lightpurple;
+    width: fit-content;
+  }
+}
