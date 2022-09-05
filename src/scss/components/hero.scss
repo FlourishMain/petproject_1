@@ -12,7 +12,7 @@
 
   &__end-section {
     background: $darkblue;
-    padding:  100px 133px 73px 500px;
+    padding: 100px 133px 73px 500px;
   }
 
   &__bg {
@@ -20,8 +20,7 @@
   }
 
   &__hero-side-img {
-    position: absolute;
-    bottom: 0;
+    align-self: flex-end;
     right: 87px;
   }
 }
