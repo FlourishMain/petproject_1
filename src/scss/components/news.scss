@@ -1,0 +1,19 @@
+.news {
+  background-color: $darkblue;
+
+  &__list-item {
+    margin-bottom: 66px;
+
+    &:nth-child(1) {
+      margin-bottom: 83px;
+    }
+  }
+
+  &__view-more {
+    border: 2px solid white;
+    width: fit-content;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 229px;
+  }
+}

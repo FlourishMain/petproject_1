@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
+import News from "../components/News";
 import OurProducts from "../components/OurProducts";
 import TrustedBy from "../components/TrustedBy";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <TrustedBy />
       <OurProducts />
+      <News />
     </div>
   );
 }
