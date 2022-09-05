@@ -3,6 +3,9 @@ import HeroBg from "../assets/images/hero-section-bg.jpg";
 import HeroSideImg from "../assets/images/hero-side-img.png";
 import DownwardArrow from "../assets/svgs/downward-arrow.svg";
 import ForwardArrow from "../assets/svgs/forward-arrow.svg";
+import { HeroSideImgVariant } from "../variants/Hero.variant";
+import { motion } from "framer-motion";
+import { DownwardFloat, ForwardFloat } from "../variants/Utility.variant";
 
 export default function Hero() {
   return (
@@ -18,14 +21,23 @@ export default function Hero() {
             their trade operations.
           </p>
           <div className="text-[22.50px] items-center flex mt-[74px] mb-[87px]">
-            Let's Go <img src={DownwardArrow} className="w-[24px] h-[24px]" />
+            Let's Go
+            <motion.img
+              src={DownwardArrow}
+              variants={DownwardFloat}
+              animate="animate"
+              className="w-[24px] h-[24px]"
+            ></motion.img>
           </div>
         </div>
-        <img
+        <motion.img
           src={HeroSideImg}
           alt
           className="hero__hero-side-img h-[355px] w-[185.3px]"
-        />
+          variants={HeroSideImgVariant}
+          initial="initial"
+          animate="animate"
+        ></motion.img>
       </div>
       <div className="hero__mid-section w-full h-[700px]"></div>
       <div className="hero__end-section">
@@ -39,7 +51,13 @@ export default function Hero() {
         </p>
 
         <div className="text-[22.50px] items-center flex mt-[56px]">
-          Let's Go <img src={ForwardArrow} className="w-[24px] h-[24px]" />
+          Let's Go{" "}
+          <motion.img
+            src={ForwardArrow}
+            variants={ForwardFloat}
+            animate="animate"
+            className="w-[24px] h-[24px] ml-[12px]"
+          ></motion.img>
         </div>
       </div>
     </div>

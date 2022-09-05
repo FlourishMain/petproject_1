@@ -1,5 +1,7 @@
 import React from "react";
 import { NewsSchema as Schema } from "../schemas/News.schema";
+import { motion } from "framer-motion";
+import { DownwardFloat } from "../variants/Utility.variant";
 
 export default function News() {
   return (
@@ -27,9 +29,13 @@ export default function News() {
             );
           })}
       </div>
-      <div className="news__view-more px-[32px] py-[57px] mt-[229px]">
+      <motion.div
+        className="news__view-more px-[32px] py-[57px] mt-[229px]"
+        variants={DownwardFloat}
+        animate="animate"
+      >
         View More
-      </div>
+      </motion.div>
     </div>
   );
 }
