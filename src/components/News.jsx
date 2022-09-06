@@ -26,7 +26,7 @@ export default function News() {
                 <h4 className="md:mt-[24px] mt-[20px] font-[900] md:leading-[36px]">
                   {e.title}
                 </h4>
-                <div className="md:mt-[16px] mt-[10px] w-[335px] md:text-[18px] text-[14px] font-[400] leading-[24.59px]">
+                <div className="md:mt-[16px] mt-[10px] md:w-[335px] md:text-[18px] text-[14px] font-[400] leading-[24.59px]">
                   {e.date}
                 </div>
               </div>
