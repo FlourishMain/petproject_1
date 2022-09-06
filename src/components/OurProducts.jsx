@@ -4,11 +4,11 @@ import { OurProductsSchema as Schema } from "../schemas/OurProducts.schema";
 
 export default function OurProducts() {
   return (
-    <div className="our-products py-[80px] text-white">
-      <h4 className="pl-[100px] font-[900] text-[28.13px] leading-[38.43px]">
+    <div className="our-products md:py-[80px] py-[60px] text-white">
+      <h4 className="md:pl-[100px] pl-[40px] font-[900] md:text-[28.13px] text-[22.13px] leading-[38.43px]">
         Our products
       </h4>
-      <h2 className="pl-[100px] font-[400] text-[43.95px] leading-[60.04px] mt-[24px]">
+      <h2 className="md:pl-[100px] pl-[40px] font-[400] md:text-[43.95px] text-[28.95px] md:leading-[60.04px] md:mt-[24px] mt-[12px]">
         Proven Systems That Scale With Our Clients
       </h2>
       <div className="our-products__list-wrapper relative overflow-hidden">

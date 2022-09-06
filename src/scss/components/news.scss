@@ -6,6 +6,8 @@
 
     &:nth-child(1) {
       margin-bottom: 83px;
+
+      @include margin-bottom-all-screens();
     }
   }
 
@@ -16,5 +18,14 @@
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
+    @include margin-bottom-all-screens();
+    @include margin-top-all-screens();
   }
+
+  @include padding-all-screens(
+    $lg: 100px 80px,
+    $md: 80px 60px,
+    $sm: 60px 40px,
+    $xs: 40px 30px
+  );
 }

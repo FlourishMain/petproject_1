@@ -1,13 +1,20 @@
 .thought-leadership {
   background-color: white;
 
-  @include padding-all-screens();
-  
+  @include padding-all-screens(
+    $lg: 80px 80px,
+    $md: 60px 60px,
+    $sm: 60px 40px,
+    $xs: 40px 30px
+  );
+
   &__list {
     display: flex;
     justify-content: center;
     row-gap: 48px;
     margin-top: 70px;
     flex-wrap: wrap;
+
+    @include margin-top-all-screens(70px,50px,30px,20px);
   }
 }

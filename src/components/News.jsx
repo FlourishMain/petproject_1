@@ -13,7 +13,9 @@ export default function News() {
               <div
                 className={`flex flex-col news__list-item
                     ${
-                      i === 0 ? `md:col-span-2 text-[28.13px]` : `text-[22.5px]`
+                      i === 0
+                        ? `md:col-span-2 md:text-[28.13px] text-[20px]`
+                        : `md:text-[22.5px] text-[16px]`
                     }
                 `}
               >
@@ -21,10 +23,10 @@ export default function News() {
                   src={require(`../assets/images/${e.img}`)}
                   className="w-full"
                 />
-                <h4 className="mt-[24px] font-[900] leading-[36px]">
+                <h4 className="md:mt-[24px] mt-[20px] font-[900] md:leading-[36px]">
                   {e.title}
                 </h4>
-                <div className="mt-[16px] w-[335px] text-[18px] font-[400] leading-[24.59px]">
+                <div className="md:mt-[16px] mt-[10px] w-[335px] md:text-[18px] text-[14px] font-[400] leading-[24.59px]">
                   {e.date}
                 </div>
               </div>

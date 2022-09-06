@@ -6,7 +6,7 @@ export default function ThoughtLeaderShip() {
   return (
     <div className="thought-leadership py-[80px] px-[100px]">
       <h4 className="ml-txt">Thought LeaderShip</h4>
-      <p className="mt-[24px] text-[35.16px] font-[400] leading-[48.03px]">
+      <p className=" md:mt-[24px] mt-[18px] md:text-[35.16px] text-[25.13px] font-[400] md:leading-[48.03px] leading-[38.03px]">
         Stay ahead of the curve with our latest industry insight
       </p>
       <div className="thought-leadership__list">
