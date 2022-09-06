@@ -1,3 +1,9 @@
 .trusted-by {
   font-family: "Avenir";
+  @include padding-all-screens(
+    $lg: 40px 80px,
+    $md: 40px 60px,
+    $sm: 40px 40px,
+    $xs: 40px 30px
+  );
 }

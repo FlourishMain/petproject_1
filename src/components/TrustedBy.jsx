@@ -12,7 +12,7 @@ export default function TrustedBy() {
   return (
     <div className="trusted-by px-[100px] py-[80px]">
       <motion.h1
-        className=" font-[400] text-[54.93px] leading-[75.03px]"
+        className=" font-[400] md:text-[54.93px] text-[40px] md:leading-[50.03px]"
         variants={HeadTextVariant}
         initial="initial"
         whileInView="animate"
@@ -20,7 +20,7 @@ export default function TrustedBy() {
         Trusted By:
       </motion.h1>
       <motion.div
-        className="trusted-by__list grid grid-cols-2 md:grid-cols-4 justify-center mt-[67px]"
+        className="trusted-by__list grid grid-cols-2 md:grid-cols-4 gap-[30px] justify-center md:mt-[67px] mt-[40px]"
         variants={LogoGroupVariant}
         whileInView="animate"
       >
@@ -30,11 +30,11 @@ export default function TrustedBy() {
               <motion.div
                 key={keyGen(8)}
                 variants={LogoIntroVariant}
-                className={i >= 4 ? "mt-[72px]" : ""}
+                className={i >= 4 ? "md:mt-[72px]" : ""}
               >
                 <img
                   src={require(`../assets/logos/${e}`)}
-                  className="w-[250px] h-[100px]"
+                  className="md:w-[250px] w-[200px] md:h-[80px]"
                   key={keyGen(8)}
                   alt={`${e}`}
                 />
