@@ -1,6 +1,6 @@
 const HeadTextVariant = {
   initial: {
-    x: "-80vw",
+    x: "-10vw",
   },
   animate: {
     x: "0px",

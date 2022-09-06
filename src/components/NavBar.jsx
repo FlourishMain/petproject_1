@@ -20,9 +20,9 @@ function NavBar({}) {
         initial="initial"
         animate="animate"
       >
-        <div className="sm-txt text-white">Product</div>
-        <div className="sm-txt text-white">Services</div>
-        <div className="sm-txt text-white">Contact</div>
+        <div className="sm-txt text-white nav-bar__nav-item">Product</div>
+        <div className="sm-txt text-white nav-bar__nav-item">Services</div>
+        <div className="sm-txt text-white nav-bar__nav-item">Contact</div>
         <div>
           <img src={Menu} className="nav-bar__logo w-[20px] h-[20px]" />
         </div>

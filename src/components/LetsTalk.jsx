@@ -14,7 +14,7 @@ export default function LetsTalk() {
       >
         Let's Talk
       </motion.h1>
-      <div className="mt-[37px] p-[60px] rounded-full border-solid border-[2px]">
+      <div className="mt-[37px] p-[60px] rounded-full border-solid border-[2px] lets-talk__arrow">
         <img src={ArrowForward} className="w-[80px] h-[80px]" />
       </div>
     </div>

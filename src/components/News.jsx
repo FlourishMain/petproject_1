@@ -6,13 +6,15 @@ import { DownwardFloat } from "../variants/Utility.variant";
 export default function News() {
   return (
     <div className="news px-[100px] py-[80px] text-white">
-      <div className="grid grid-cols-2 gap-x-[20px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[20px]">
         {Schema.length &&
           Schema.map((e, i) => {
             return (
               <div
                 className={`flex flex-col news__list-item
-                    ${i === 0 ? `col-span-2 text-[28.13px]` : `text-[22.5px]`}
+                    ${
+                      i === 0 ? `md:col-span-2 text-[28.13px]` : `text-[22.5px]`
+                    }
                 `}
               >
                 <img

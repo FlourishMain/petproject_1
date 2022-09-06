@@ -20,7 +20,7 @@ export default function TrustedBy() {
         Trusted By:
       </motion.h1>
       <motion.div
-        className="trusted-by__list grid grid-cols-4 justify-center mt-[67px]"
+        className="trusted-by__list grid grid-cols-2 md:grid-cols-4 justify-center mt-[67px]"
         variants={LogoGroupVariant}
         whileInView="animate"
       >

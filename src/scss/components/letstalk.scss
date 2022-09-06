@@ -6,4 +6,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  &__arrow {
+    @include inner-padding-all-screens();
+  }
 }

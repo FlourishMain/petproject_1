@@ -1,6 +1,8 @@
 .thought-leadership {
   background-color: white;
 
+  @include padding-all-screens();
+  
   &__list {
     display: flex;
     justify-content: center;

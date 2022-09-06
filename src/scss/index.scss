@@ -1,4 +1,5 @@
 @import "./variable";
+@import "./mixins";
 @import "./fonts";
 @import "./components/navbar";
 @import "./components/hero";
@@ -55,6 +56,9 @@
   font-style: normal;
   font-family: "Avenir";
   color: $white;
+
+  @include font-all-screens(68.66px, 50px, 30px, 20px);
+  @include line-height-all-screens(93.79px, 75.13px, 55.13px, 45.13px);
 }
 
 .xxl-txt {
@@ -64,4 +68,7 @@
   font-style: normal;
   font-family: "Avenir";
   color: $white;
+
+  @include font-all-screens(149.01px, 120px, 100px, 80px);
+  @include line-height-all-screens(203.55px, 174.74px, 154.54px, 134.54px);
 }

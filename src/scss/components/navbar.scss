@@ -4,11 +4,19 @@
   justify-content: space-between;
   align-items: center;
 
+  @include padding-all-screens;
+
   &__navs-con div {
     margin-left: 40px;
 
     &:nth-child(1) {
       margin-left: 0;
+    }
+  }
+
+  &__nav-item {
+    @media screen and (max-width: 768px) {
+      display: none !important;
     }
   }
 }
